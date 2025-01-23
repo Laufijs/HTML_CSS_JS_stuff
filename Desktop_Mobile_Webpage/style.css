@@ -1,0 +1,190 @@
+div {
+  padding: 0px 10px 5px 10px;
+}
+
+body {
+  padding: 0px 10px 0px 10px;
+  margin: auto;
+  box-sizing: border-box;
+  max-width: 1000px;
+  justify-content: center;
+}
+
+#navBarTop {
+  margin: 0;
+  background-color: rgb(153, 156, 155);
+  padding: 10px;
+  justify-content: center;
+}
+
+.navTabsTop {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 5px;
+}
+.nav-item button {
+  width: 120px;
+  text-align: center;
+  max-width: 200px;
+  box-sizing: border-box;
+}
+
+.maintext {
+  text-align: justify;
+}
+#mainList ul p {
+  font-weight: bold;
+  text-align: left;
+}
+.mainListHead {
+  list-style-type: none;
+
+  font-weight: bold;
+}
+.mainTextImage {
+  width: 85%;
+  border-radius: 10px;
+}
+
+#headphonesRow {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#razer,
+#steelseries,
+#hyperx,
+#bose {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 0.1rem solid black;
+  border-radius: 7px;
+  width: 75%;
+}
+
+#razer {
+  background-color: black;
+  color: greenyellow;
+}
+
+#steelseries {
+  background-color: white;
+  color: black;
+  font-size: 29px;
+  font-weight: bold;
+  font-style: initial;
+  font-family: "Poppins, serif";
+}
+
+#hyperx {
+  font-family: "Orbitron", sans-serif;
+  background-color: red;
+  color: black;
+}
+
+#bose {
+  background-color: black;
+  color: whitesmoke;
+  font-style: italic;
+}
+
+.navBarBotLogo {
+  width: 40px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+/*  ////////////////////// Mobile ////////////////////// */
+/*  ////////////////////// Mobile ////////////////////// */
+
+@media (max-width: 500px) {
+  #navBarTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(153, 156, 155);
+    padding: 10px;
+  }
+
+  .navTabsTop {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 5px;
+    width: 90%;
+  }
+
+  .nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .nav-item button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #razer,
+  #steelseries,
+  #hyperx,
+  #bose {
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-9 {
+    width: 100%;
+  }
+
+  #headphonesRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #mainList ul p {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .col-3 {
+    display: none;
+  }
+}
